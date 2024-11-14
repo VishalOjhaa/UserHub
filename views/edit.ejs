@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="w-full h-screen bg-zinc-900 text-white">
+    <div class="heading text-4xl p-10 text-yellow-700">
+        Edit User
+    </div>
+    <form action="/update/<%= editUser._id %>" method="post">
+        Name:<input  class="rounded-lg bg-zinc-600 m-3"  value="<%= editUser.name %>"  type="text" name="name" id="">
+        Email:<input class="rounded-lg bg-zinc-600 m-3"  value="<%= editUser.email %>" type="text" name="email" id="">
+        Image:<input  class="rounded-lg bg-zinc-600 m-3" value="<%= editUser.image %>" type="text" name="image" id="">
+        <input type="submit" class="bg-yellow-700 p-1 px-5" value="Edit">
+    </form>
+    <div class="navpages">
+        <a href="/read" class="underline text-blue-600 text-xl p-10 mt-5 absolute">All Users</a>
+    </div>
+</body>
+</html>
