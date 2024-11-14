@@ -14,6 +14,10 @@ UserHub is a simple CRUD application that allows users to create, read, update, 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Frontend**: HTML, EJS, Tailwind CSS
+## ScreenShots
+![All Users](public/images/allusers.png)
+![Create User](public/images/createuser.png)
+![Edit User](public/images/edit.png)
 
 ## Installation
 
