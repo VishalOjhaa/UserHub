@@ -38,7 +38,7 @@ UserHub is a simple CRUD application that allows users to create, read, update, 
 
 4. Start the server:
     ```bash
-    npm start
+    node index
     ```
 
 The application will run on `http://localhost:3000`.
