@@ -36,12 +36,7 @@ UserHub is a simple CRUD application that allows users to create, read, update, 
     npm install
     ```
 
-4. Create a `.env` file to configure MongoDB connection URL:
-    ```bash
-    MONGO_URI=your_mongodb_connection_string
-    ```
-
-5. Start the server:
+4. Start the server:
     ```bash
     npm start
     ```
